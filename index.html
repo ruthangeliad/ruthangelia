@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV – Mahasiswa Manajemen Informasi Kesehatan</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <!-- Foto -->
+        <aside class="left">
+          <div class="avatar">
+            <img src="img/foto.jpeg" alt="Foto Profil" />
+          </div>
+
+          <div class="identity">
+            <div class="name">Ruth Angelia Rodearni Damanik</div>
+            <div class="role">Mahasiswa Manajemen Informasi Kesehatan</div>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn primary" id="btn-download">Download CV</button>
+            <button class="btn" id="btn-portfolio">Portofolio</button>
+            <button class="btn ghost" id="btn-contact">Kontak</button>
+          </div>
+        </aside>
+
+        <!-- Isi CV -->
+        <section class="right">
+          <div class="headline">
+            <h1>Ringkasan Profesional</h1>
+            <div class="contact">Jl. Tangguk Bongkar VII No 6, Kota Medan · ruthangeliadamanik@gmail.com · 0878-8963-2130</div>
+          </div>
+
+          <div class="section">
+            <h3>Profil Singkat</h3>
+            <p class="meta">
+              Lulusan D-III Rekam Medis dan Informasi Kesehatan di APIKES BHUMI HUSADA JAKARTA, dan saat ini Mahasiswa Manajemen Informasi Kesehatan Program Sarjana Terapan di Institut Deli Husada. Pernah menjadi kepala rekam medis di salah satu rumah sakit di Medan.
+            </p>
+          </div>
+
+          <div class="section">
+            <h3>Keahlian Utama</h3>
+            <div class="skills">
+              <span class="skill">Pemrosesan Rekam Medis</span>
+              <span class="skill">Manajemen Data Kesehatan</span>
+              <span class="skill">Sistem Informasi Rumah Sakit (SIMRS)</span>
+              <span class="skill">Microsoft Excel</span>
+              <span class="skill">Analisis Data Dasar</span>
+              <span class="skill">Pengarsipan & Filling</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pengalaman / Praktik</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2022</div>
+                <div class="desc">
+                  <strong>Puskesmas Simpang Limun</strong> · Bekerja di bagian pendaftaran pasien dan rekam medis.
+                </div>
+              </div>
+              <div class="item">
+                <div class="year">2020</div>
+                <div class="desc">
+                  <strong>Rumah Sakit Mitra Sejati</strong> · Sensus Harian, Assembling berkas rekam medis, laporan kunjungan, laporan statistik.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pendidikan</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025 – Sekarang</div>
+                <div class="desc"><strong>S1 Manajemen Informasi Kesehatan</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <footer>Institut Kesehatan Deli Husada @2025</footer>
+        </section>
+      </article>
+    </main>
+
+    <script>
+      document.getElementById("btn-download").onclick = () => window.print();
+      document.getElementById("btn-portfolio").onclick = () => window.open("#", "_blank");
+      document.getElementById("btn-contact").onclick = () => (window.location.href = "mailto:email@example.com");
+    </script>
+  </body>
+</html>
